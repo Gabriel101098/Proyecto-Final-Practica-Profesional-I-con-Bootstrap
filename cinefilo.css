@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    background-color: #333; /* Gris oscuro */
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente */
+    text-align: center; /* Texto centrado */
+}
+
+/* Encabezado */
+header {
+    margin-bottom: 20px; /* Espacio entre el encabezado y el contenido */
+}
+
+header img {
+    vertical-align: middle; /* Alineación vertical al centro */
+    width: 100px; /* Tamaño de la imagen */
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
+}
+
+/* Título */
+#titulo {
+    display: inline-block; /* Mostrar en línea con la imagen */
+    margin: 0; /* Eliminar márgenes */
+}
+
+/* Formularios */
+form {
+    display: inline-block; /* Mostrar en línea */
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 20px; /* Espacio entre formularios */
+}
+
+/* Tabla */
+#salida {
+    width: 100%;
+    overflow-x: auto; /* Para hacer la tabla responsive en móviles */
+    margin: 20px 0;
+}
+
+#salida table {
+    border-collapse: collapse;
+    width: auto; /* Cambiado de 90% a auto */
+    margin: 0 auto; /* Centrar la tabla */
+    background-color: white; /* Fondo blanco para mejor contraste */
+    color: #333; /* Texto oscuro para mejor legibilidad */
+}
+
+#salida table th {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-align: center; /* Centrar texto en headers */
+}
+
+#salida table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Alinear texto a la izquierda en celdas */
+}
+
+/* Asegurar que la tabla no sea más ancha que el contenedor */
+@media (max-width: 768px) {
+    #salida table {
+        width: 100%;
+    }
+}
+
+/* Footer */
+footer {
+    margin-top: 20px; /* Espacio entre el contenido y el pie de página */
+}
